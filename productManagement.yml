@@ -1,5 +1,9 @@
-spring:
-  application:
-    name: ProductManagement
-server:
-  port: 9080
+product:
+  management:
+    message: Product Management Default Properties file
+    build-version: 2023.01.27
+    mailDetails:
+      host: test-product-management@fincorp.com
+      port: 9000
+      from: test-product-management@fincorp.com
+      

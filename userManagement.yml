@@ -1,5 +1,9 @@
-spring:
-  application:
-    name: UserManagement
-server:
-  port: 9090
+user:
+  management:
+    message: User Management Default Properties file
+    build-version: 2023.01.27
+    mailDetails:
+      host: test-user-management@fincorp.com
+      port: 9000
+      from: test-user-management@fincorp.com
+      

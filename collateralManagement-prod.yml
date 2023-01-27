@@ -1,5 +1,9 @@
-spring:
-  application:
-    name: CollateralManagement-PROD
-server:
-  port: 8070
+collateral:
+  management:
+    message: Collateral Management PROD Properties file
+    build-version: 2023.01.27
+    mailDetails:
+      host: collateral-management@fincorp.com
+      port: 9000
+      from: collateral-management@fincorp.com
+      

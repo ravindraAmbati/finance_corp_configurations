@@ -1,5 +1,8 @@
-spring:
-  application:
-    name: CollateralManagement
-server:
-  port: 9070
+collateral:
+  management:
+    message: Collateral Management Default Properties file
+    build-version: 2023.01.27
+    mailDetails:
+      host: default-collateral-management@fincorp.com
+      port: 9000
+      from: default-collateral-management@fincorp.com

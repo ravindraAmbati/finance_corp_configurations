@@ -1,15 +1,9 @@
-spring:
-  application:
-    name: FinancialServices-PROD
-server:
-  port: 8060
-service:
-  collateral:
-    host: localhost
-    port: 8070
-  product:
-    host: localhost
-    port: 8080
-  user:
-    host: localhost
-    port: 8090
+financial:
+  services:
+    message: Financial Services PROD Properties file
+    build-version: 2023.01.27
+    mailDetails:
+      host: financial-services@fincorp.com
+      port: 9000
+      from: financial-services@fincorp.com
+      
