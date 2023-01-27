@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: ProductManagement-PROD
+server:
+  port: 8080

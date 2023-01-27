@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: UserManagement-PROD
+server:
+  port: 8090
